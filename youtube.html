@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube Clone Practice</title>
+    <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search using your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">1</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="profile-picture-user" src="channel-pictures/channel-profile.webp">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/shorts.svg">
+        <div>Shorts</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <a href="https://www.youtube.com/watch?v=gAFgaI5D3Gc" target="_blank">
+            <div class="thumbnail-row">
+              <img  class="thumbnail" src="thumbnails/thumbnail-1.webp">
+              <div class="video-time">3:46</div>
+            </div>
+          </a>
+          <div class="video-info-grid">
+            <a href="https://www.youtube.com/@twicejapan_official" target="_blank">
+              <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-1.webp">
+              </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=gAFgaI5D3Gc" target="_blank">
+              <div class="video-info">
+                <p class="video-title"> MISAMO「Marshmallow」Music Video </p>
+                <p class="video-author"> Twice Japan </p>
+                <p class="video-stats"> 8 M views &#183; 1 month ago </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="video-preview">
+          <a href="https://www.youtube.com/watch?v=woKq2sD8xho" target="_blank">
+            <div class="thumbnail-row">
+              <img  class="thumbnail" src="thumbnails/thumbnail-2.webp">
+              <div class="video-time">3:20</div>
+            </div>
+          </a>
+          <div class="video-info-grid">
+            <a href="https://www.youtube.com/@JYPEntertainment" target="_blank">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-2.webp">
+              </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=woKq2sD8xho" target="_blank">
+              <div class="video-info">
+                <p class="video-title"> MISAMO “Do not touch” M/V </p>
+                <p class="video-author"> Twice </p>
+                <p class="video-stats"> 10 M views &#183; 9 days ago </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="video-preview">
+          <a href="https://www.youtube.com/watch?v=ArmDp-zijuc" target="_blank">
+            <div class="thumbnail-row">
+              <img  class="thumbnail" src="thumbnails/thumbnail-3.webp">
+              <div class="video-time">3:21</div>
+            </div>
+          </a>
+          <div class="video-info-grid">
+            <a href="https://www.youtube.com/@HYBELABELS" target="_blank">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-3.webp">
+              </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=ArmDp-zijuc" target="_blank">
+              <div class="video-info">
+                <p class="video-title"> NewJeans (뉴진스) 'Super Shy' Official MV </p>
+                <p class="video-author"> HYBE LABELS </p>
+                <p class="video-stats"> 34 M views &#183; 2 weeks ago </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="video-preview">
+          <a href="https://www.youtube.com/watch?v=2qUCyW7ewPs" target="_blank">
+            <div class="thumbnail-row">
+              <img  class="thumbnail" src="thumbnails/thumbnail-4.webp">
+              <div class="video-time">5:21</div>
+            </div>
+          </a>
+          <div class="video-info-grid">
+            <a href="https://www.youtube.com/channel/UCtmY49Zn4l0RMJnTWfV7Wsg" target="_blank">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-4.webp">
+              </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=2qUCyW7ewPs" target="_blank">
+              <div class="video-info">
+                <p class="video-title"> Jacob Collier - Time Alone With You ft. Daniel Caesar </p>
+                <p class="video-author"> Jacob Collier </p>
+                <p class="video-stats"> 7 M views &#183; 3 years ago </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="video-preview">
+          <a href="https://www.youtube.com/watch?v=dEvL-Zty9Uc" target="_blank">
+            <div class="thumbnail-row">
+              <img  class="thumbnail" src="thumbnails/thumbnail-5.webp">
+              <div class="video-time">17:40</div>
+            </div>
+          </a>
+          <div class="video-info-grid">
+            <a href="https://www.youtube.com/@soi__sun09" target="_blank">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-5.webp">
+              </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=dEvL-Zty9Uc" target="_blank">
+              <div class="video-info">
+                <p class="video-title">【ルームツアー】部屋カフェのある39歳フリーランスの部屋 | IKEA無印ニトリ </p>
+                <p class="video-author"> soi / そい / 소이 </p>
+                <p class="video-stats"> 79 K views &#183; 1 month ago </p>
+              </div>
+            </a>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <a href="https://www.youtube.com/watch?v=RVzld8ES9hQ" target="_blank">
+            <div class="thumbnail-row">
+              <img  class="thumbnail" src="thumbnails/thumbnail-7.webp">
+              <div class="video-time">22:07</div>
+            </div>
+          </a>
+          <div class="video-info-grid">
+            <a href="https://www.youtube.com/@T2norway" target="_blank">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-7.webp">
+              </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=RVzld8ES9hQ" target="_blank">
+              <div class="video-info">
+                <p class="video-title">  Casiopea: Japan’s Most Energetic Jazz Fusion Band  </p>
+                <p class="video-author"> T2norway </p>
+                <p class="video-stats"> 911 K views &#183; 2 years ago </p>
+              </div>
+            </a>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <a href="https://www.youtube.com/watch?v=-UBcxKiS550" target="_blank">
+            <div class="thumbnail-row">
+              <img  class="thumbnail" src="thumbnails/thumbnail-8.webp">
+              <div class="video-time">4:52</div>
+            </div>
+          </a>
+          <div class="video-info-grid">
+            <a href="https://www.youtube.com/channel/UCPSu8IosaYxsVx5TOGFtjCg" target="_blank">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-8.webp">
+              </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=-UBcxKiS550" target="_blank">
+              <div class="video-info">
+                <p class="video-title">  Dirty Loops & Cory Wong - Follow The Light  </p>
+                <p class="video-author"> Dirty Loops </p>
+                <p class="video-stats"> 3 M views &#183; 1 year ago </p>
+              </div>
+            </a>
+          </div>
+        </div>
+  
+        <div class="video-preview">
+          <a href="https://www.youtube.com/watch?v=fDg3PTQ1tzM&pp=ygUHTWF0c3VyaQ%3D%3D" target="_blank">
+            <div class="thumbnail-row">
+              <img  class="thumbnail" src="thumbnails/thumbnail-9.webp">
+              <div class="video-time">4:36</div>
+            </div>
+          </a>
+          <div class="video-info-grid">
+            <a href="https://www.youtube.com/channel/UCNIy6zQyP7SuLEIaiwymfUA" target="_blank">
+              <div class="channel-picture">
+                <img class="profile-picture" src="channel-pictures/channel-9.webp">
+              </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=fDg3PTQ1tzM&pp=ygUHTWF0c3VyaQ%3D%3D" target="_blank">
+              <div class="video-info">
+                <p class="video-title"> Fujii Kaze - "Matsuri" Live at Panasonic Stadium Suita </p>
+                <p class="video-author"> Fujii Kaze </p>
+                <p class="video-stats"> 19 M views &#183; 7 months ago </p>
+              </div>
+            </a>
+          </div>
+        </div>
+  
+      </section>
+    </main>
+  </body>
+</html>
